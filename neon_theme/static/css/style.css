@@ -16,6 +16,6 @@ body {
     max-width: 600px;
     padding: 20px;
     color: #221a34;
-    z-index: 10;
+    border-top: #7a60b9 3px solid;
 }
 
