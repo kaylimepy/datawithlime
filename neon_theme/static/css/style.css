@@ -1,0 +1,21 @@
+.particles-js-canvas-el {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+body {     
+    background: #221a34;
+}
+
+.cyber-card {
+    background: whitesmoke;
+    margin: 25vh auto;
+    max-width: 600px;
+    padding: 20px;
+    color: #221a34;
+    z-index: 10;
+}
+
