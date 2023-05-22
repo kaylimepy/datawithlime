@@ -1,3 +1,22 @@
+@font-face {
+    font-family: 'Neoteric';
+    src: url('/theme/fonts/neoteric.ttf');
+}
+
+@font-face {
+    font-family: 'Neoteric';
+    src: url('/theme/fonts/neoteric-bold.ttf');
+    font-weight: bold;
+}
+
+h1 {
+    font-family: 'Neoteric';
+    font-size: 2em;
+    color: #221a34;
+    margin-bottom: 20px;
+
+}
+
 .particles-js-canvas-el {
     position: absolute;
     top: 0;
@@ -8,6 +27,8 @@
 
 body {     
     background: #221a34;
+    font-family: 'Neoteric';
+    
 }
 
 .cyber-card {
@@ -16,6 +37,7 @@ body {
     max-width: 600px;
     padding: 20px;
     color: #221a34;
-    border-top: #7a60b9 3px solid;
+    border-radius: 5px;
 }
+
 
