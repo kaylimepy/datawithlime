@@ -26,9 +26,9 @@ h1 {
 }
 
 body {     
-    background: #221a34;
+    /* background: #221a34; */
+    background: linear-gradient(90deg, #1b152b 35%, #4c3b74 100%);
     font-family: 'Neoteric';
-    
 }
 
 .cyber-card {
@@ -38,6 +38,37 @@ body {
     padding: 20px;
     color: #221a34;
     border-radius: 5px;
+    animation: 1s ease-out 0s 1 pulse;
 }
 
+.logo {
+    height: 80px;
+    margin-bottom: 10px;
+}
 
+.at {
+    font-family: Arial, sans-serif;
+    font-size: 0.8em;
+}
+
+a {
+    color: #221a34;
+}
+
+p:not(:first-child) {
+    margin-top: 20px;
+}
+
+@keyframes pulse {
+    from {
+      transform: scale3d(1, 1, 1);
+    }
+  
+    50% {
+      transform: scale3d(1.05, 1.05, 1.05);
+    }
+  
+    to {
+      transform: scale3d(1, 1, 1);
+    }
+ }

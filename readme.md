@@ -1,0 +1,3 @@
+## Commands
+
+`pelican --autoreload --listen`
