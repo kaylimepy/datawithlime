@@ -41,6 +41,7 @@ body {
     border-radius: 5px;
     animation: 1s ease-out 0s 1 pulse;
     font-size: 1.1em;
+    position: relative;
 }
 
 .logo {
@@ -52,6 +53,24 @@ body {
 .at {
     font-family: Arial, sans-serif;
     font-size: 0.8em;
+}
+
+.social-container {
+    position: absolute;
+    top: 0; 
+    right: 15px; 
+}
+
+.social-button {
+    display: inline-block;
+    padding: 8px 8px 4px; 
+    background-color: #221a34;
+    border-radius: 5px; 
+    margin-top: 15px;
+}
+
+.social-button:hover {
+    background-color: #4c3b74;
 }
 
 a {
